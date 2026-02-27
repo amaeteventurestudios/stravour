@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Stravour | House of Discipline</title>
+  <meta name="description" content="Stravour is a private house operating in disciplined formation. Developed deliberately. Released only when ready." />
+  <meta name="keywords" content="private house, disciplined development, institutional formation, private phase brand, structured development model, long-term formation, restrained brand architecture" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Stravour | Private Phase" />
+  <meta property="og:description" content="A private house in formation. Built slowly and deliberately. No public distribution." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="images/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Stravour — House of Discipline" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Stravour | Private Phase" />
+  <meta name="twitter:description" content="A private house in formation. Built slowly and deliberately. No public distribution." />
+  <meta name="twitter:image" content="images/og-image.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <link rel="apple-touch-icon" href="images/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Inter:wght@300;400&display=swap" rel="stylesheet" />
+  <style>
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+      background-color: #121212;
+      color: #E8E2D9;
+      font-family: 'Inter', sans-serif;
+      font-weight: 300;
+      line-height: 1;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    /* ── Layout ─────────────────────────────────────────── */
+
+    .page-shell {
+      width: 100%;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 0 32px;
+    }
+
+    /* ── Header ─────────────────────────────────────────── */
+
+    header {
+      padding-top: 96px;
+      padding-bottom: 64px;
+      text-align: center;
+    }
+
+    .wordmark {
+      font-family: 'EB Garamond', serif;
+      font-size: clamp(2.25rem, 5vw, 3rem);
+      font-weight: 400;
+      letter-spacing: 0.28em;
+      color: #E8E2D9;
+      text-transform: uppercase;
+      line-height: 1;
+    }
+
+    .tagline {
+      margin-top: 18px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.7rem;
+      font-weight: 300;
+      letter-spacing: 0.3em;
+      color: #CFC4B6;
+      text-transform: uppercase;
+    }
+
+    /* ── Divider ─────────────────────────────────────────── */
+
+    .rule {
+      width: 40px;
+      height: 1px;
+      background-color: #CFC4B6;
+      opacity: 0.45;
+      margin: 0 auto;
+      border: none;
+    }
+
+    /* ── Main body ──────────────────────────────────────── */
+
+    main {
+      padding-bottom: 96px;
+      text-align: center;
+    }
+
+    .status-block {
+      padding-top: 56px;
+    }
+
+    .status-label {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.65rem;
+      font-weight: 400;
+      letter-spacing: 0.35em;
+      color: #CFC4B6;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .status-title {
+      font-family: 'EB Garamond', serif;
+      font-size: clamp(1.1rem, 2.5vw, 1.35rem);
+      font-weight: 400;
+      letter-spacing: 0.04em;
+      color: #E8E2D9;
+      line-height: 1.5;
+      margin-bottom: 32px;
+    }
+
+    .body-copy {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.875rem;
+      font-weight: 300;
+      line-height: 1.9;
+      color: #E8E2D9;
+      opacity: 0.82;
+    }
+
+    .body-copy p {
+      margin-bottom: 0;
+    }
+
+    .body-copy .stanza {
+      margin-bottom: 28px;
+    }
+
+    .body-copy .stanza:last-child {
+      margin-bottom: 0;
+    }
+
+    /* Negation lines — slightly reduced opacity for quiet authority */
+    .body-copy .negation {
+      opacity: 0.62;
+    }
+
+    .body-copy .negation p {
+      line-height: 2;
+    }
+
+    /* ── Second block ─────────────────────────────────── */
+
+    .formation-block {
+      padding-top: 64px;
+    }
+
+    .formation-rule {
+      width: 24px;
+      height: 1px;
+      background-color: #CFC4B6;
+      opacity: 0.3;
+      border: none;
+      margin: 0 auto 48px;
+    }
+
+    .formation-text {
+      font-family: 'EB Garamond', serif;
+      font-size: clamp(1rem, 2.2vw, 1.2rem);
+      font-weight: 400;
+      letter-spacing: 0.03em;
+      color: #E8E2D9;
+      line-height: 1.75;
+      opacity: 0.75;
+      font-style: italic;
+    }
+
+    /* ── Closing line ───────────────────────────────────── */
+
+    .closing-block {
+      padding-top: 64px;
+    }
+
+    .closing-rule {
+      width: 24px;
+      height: 1px;
+      background-color: #CFC4B6;
+      opacity: 0.3;
+      border: none;
+      margin: 0 auto 48px;
+    }
+
+    .closing-line {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 300;
+      letter-spacing: 0.06em;
+      color: #E8E2D9;
+      opacity: 0.55;
+      line-height: 1.8;
+    }
+
+    /* ── Footer ─────────────────────────────────────────── */
+
+    footer {
+      padding-top: 64px;
+      padding-bottom: 56px;
+      border-top: 1px solid rgba(207, 196, 182, 0.1);
+    }
+
+    .footer-inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      text-align: center;
+    }
+
+    .footer-wordmark {
+      font-family: 'EB Garamond', serif;
+      font-size: 0.75rem;
+      letter-spacing: 0.3em;
+      color: #CFC4B6;
+      text-transform: uppercase;
+      opacity: 0.5;
+    }
+
+    .footer-note {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.65rem;
+      font-weight: 300;
+      letter-spacing: 0.18em;
+      color: #CFC4B6;
+      text-transform: uppercase;
+      opacity: 0.4;
+      text-align: center;
+    }
+
+    /* ── Responsive ─────────────────────────────────────── */
+
+    @media (max-width: 480px) {
+      .page-shell {
+        padding: 0 24px;
+      }
+
+      header {
+        padding-top: 64px;
+        padding-bottom: 48px;
+      }
+
+      main {
+        padding-bottom: 64px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- ── HEADER ─────────────────────────────────────────── -->
+  <header>
+    <div class="page-shell">
+      <div class="wordmark">Stravour</div>
+      <div class="tagline">House of Discipline</div>
+    </div>
+  </header>
+
+  <!-- ── MAIN ───────────────────────────────────────────── -->
+  <main>
+    <div class="page-shell">
+
+      <hr class="rule" />
+
+      <!-- Status -->
+      <section class="status-block">
+        <div class="status-label">Private Phase</div>
+        <div class="status-title">
+          Stravour is not publicly launched.<br />
+          There is no public distribution.
+        </div>
+
+        <div class="body-copy">
+
+          <div class="stanza">
+            <p>Stravour is being built slowly and deliberately.</p>
+          </div>
+
+          <div class="stanza negation">
+            <p>No announcements.</p>
+            <p>No public releases.</p>
+            <p>No marketing.</p>
+          </div>
+
+          <div class="stanza">
+            <p>Everything is developed in private.</p>
+            <p>Evaluated carefully.</p>
+            <p>Refined before being shown.</p>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Formation -->
+      <section class="formation-block">
+        <hr class="formation-rule" />
+        <p class="formation-text">This is a period of formation.</p>
+      </section>
+
+      <!-- Closing -->
+      <section class="closing-block">
+        <hr class="closing-rule" />
+        <p class="closing-line">When the work is ready, it will speak for itself.</p>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ── FOOTER ─────────────────────────────────────────── -->
+  <footer>
+    <div class="page-shell">
+      <div class="footer-inner">
+        <div class="footer-wordmark">Stravour</div>
+        <div class="footer-note">Private</div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
